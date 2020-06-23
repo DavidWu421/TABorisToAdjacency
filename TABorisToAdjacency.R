@@ -15,7 +15,6 @@ boris.ta.no.to.adjacency <- function(file1, nobv,filename) {
   df_data <- df_data[-c(3,6:10)]
   
   #creating the model of final dataframe
-  #creating a variable for each behavior name called behav1, behav2...
   adj.matrix<- data.frame(" " = c('TA', 'Table1','Table2','Table3','Table4','Table5','Table6','Table7','EveryoneTable'),'TA' = c(rep(0,9)), 'Table1' = c(rep(0,9)), 'Table2' = c(rep(0,9)),'Table3'=c(rep(0,9)),'Table4'=c(rep(0,9)),'Table5'=c(rep(0,9)),'Table6'=c(rep(0,9)),'Table7'=c(rep(0,9)),'EveryoneTable'=c(rep(0,9)), check.names=FALSE)
   
   #putting data from df_data into df_model
